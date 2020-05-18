@@ -1,0 +1,49 @@
+Algoritmo DoisOuUm
+Var
+    A, C, P: inteiro
+
+Iní­cio
+
+    Escreva ("Digite o valor informado por André: ")
+        Leia (A)
+        Se (A <> 2) e (A <> 1) então
+            Repita
+            Escreva ("Número Inválido! O valor deve ser 2 ou 1. Informe novo valor: ")
+            Leia (A)
+            Até que (A = 2) ou (A = 1)
+        Fim_Se
+
+    Escreva ("Digite o valor informado por Carlos: ")
+        Leia (C)
+        Se (C <> 2) e (C <> 1) então
+            Repita
+            Escreva ("Número Inválido! O valor deve ser 2 ou 1. Informe novo valor: ")
+            Leia (C)
+            Até que (C = 2) ou (C = 1)
+        Fim_Se
+
+    Escreva ("Digite o valor informado por Pietro: ")
+        Leia (P)
+        Se (P <> 2) e (P <> 1) então
+            Repita
+            Escreva ("Número Inválido! O valor deve ser 2 ou 1. Informe novo valor: ")
+            Leia (P)
+            Até que (P = 2) ou (P = 1)
+        Fim_Se        
+
+        Se (A <> C) e (A <> P) então
+        	Escreva ("A")
+        Senão
+            Se (C <> A) e (C <> P) então
+                Escreva ("C")
+            Senão
+                Se (P <> A) e (P <> C) então
+                    Escreva ("P")
+                Senão
+                    Escreva ("X")
+                Fim_Se    
+            Fim_Se
+        Fim_Se
+    Fim_Se
+
+Fim
