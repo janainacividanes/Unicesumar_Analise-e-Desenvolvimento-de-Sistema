@@ -1,46 +1,46 @@
 Algoritmo DoisOuUm
 Var
-    A, C, P: inteiro
+    andre, carlos, pietro: inteiro
 
-InÌ≠cio
+In√≠¬≠cio
 
-    Escreva ("Digite o valor informado por AndrÈ: ")
-        Leia (A)
-        Se (A <> 2) e (A <> 1) ent„o
+    Escreva ("Digite o valor informado por Andr√©: ")
+        Leia (andre)
+        Se (andre <> 2) e (andre <> 1) ent√£o
             Repita
-            Escreva ("N˙mero Inv·lido! O valor deve ser 2 ou 1. Informe novo valor: ")
-            Leia (A)
-            AtÈ que (A = 2) ou (A = 1)
+            Escreva ("N√∫mero Inv√°lido! O valor deve ser 2 ou 1. Informe novo valor: ")
+            Leia (andre)
+            At√© que (andre = 2) ou (andre = 1)
         Fim_Se
 
     Escreva ("Digite o valor informado por Carlos: ")
-        Leia (C)
-        Se (C <> 2) e (C <> 1) ent„o
+        Leia (carlos)
+        Se (carlos <> 2) e (carlos <> 1) ent√£o
             Repita
-            Escreva ("N˙mero Inv·lido! O valor deve ser 2 ou 1. Informe novo valor: ")
-            Leia (C)
-            AtÈ que (C = 2) ou (C = 1)
+            Escreva ("N√∫mero Inv√°lido! O valor deve ser 2 ou 1. Informe novo valor: ")
+            Leia (carlos)
+            At√© que (carlos = 2) ou (carlos = 1)
         Fim_Se
 
     Escreva ("Digite o valor informado por Pietro: ")
-        Leia (P)
-        Se (P <> 2) e (P <> 1) ent„o
+        Leia (pietro)
+        Se (pietro <> 2) e (pietro <> 1) ent√£o
             Repita
-            Escreva ("N˙mero Inv·lido! O valor deve ser 2 ou 1. Informe novo valor: ")
-            Leia (P)
-            AtÈ que (P = 2) ou (P = 1)
+            Escreva ("N√∫mero Inv√°lido! O valor deve ser 2 ou 1. Informe novo valor: ")
+            Leia (pietro)
+            At√© que (pietro = 2) ou (pietro = 1)
         Fim_Se        
 
-        Se (A <> C) e (A <> P) ent„o
-        	Escreva ("A")
-        Sen„o
-            Se (C <> A) e (C <> P) ent„o
-                Escreva ("C")
-            Sen„o
-                Se (P <> A) e (P <> C) ent„o
-                    Escreva ("P")
-                Sen„o
-                    Escreva ("X")
+        Se (andre <> carlos) e (andre <> pietro) ent√£o
+        	Escreva ("andre")
+        Sen√£o
+            Se (carlos <> A) e (carlos <> pietro) ent√£o
+                Escreva ("carlos")
+            Sen√£o
+                Se (pietro <> A) e (pietro <> carlos) ent√£o
+                    Escreva ("pietro")
+                Sen√£o
+                    Escreva ("Nao teve ganhador")
                 Fim_Se    
             Fim_Se
         Fim_Se
